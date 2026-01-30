@@ -1,0 +1,37 @@
+h1{
+	background-color:hsl(186, 0%, 77%);
+	padding: 15px;
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: middle;
+}
+
+body{
+	background-color:hsl(186, 100%, 86%);
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Cột 1: tự động, cột 2: chiếm không gian còn lại */
+    gap: 20px;
+    align-items: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.abscentered {
+    margin: 0;
+    padding: 0;
+    height: 22vh;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: #f8fafc;
+	overflow-x:auto;
+}
