@@ -1,37 +1,22 @@
-h1{
-	background-color:hsl(186, 0%, 77%);
-	padding: 15px;
-	border: 2px solid black;
-	text-align: center;
-	vertical-align: middle;
-}
-
 body{
-	background-color:hsl(186, 100%, 86%);
+	display:flex;
+	font-family:Calibri;
+	flex-wrap: wrap;
 }
 
-
-.container {
-    display: grid;
-    grid-template-columns: auto 1fr; /* Cột 1: tự động, cột 2: chiếm không gian còn lại */
-    gap: 20px;
-    align-items: center;
+.profile{
+	border-radius:100%;
+	justify-content:center;
 }
 
-.avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+.info{
+	font-size:4rem;
+	text-align:center;
+	margin:5px;
 }
 
-.abscentered {
-    margin: 0;
-    padding: 0;
-    height: 22vh;
-    display: flex;
-	justify-content: center;
-    align-items: center;
-    background-color: #f8fafc;
-	overflow-x:auto;
+article{
+	background-color: hsl(0, 0%, 85%);
+	text-align: center;
+	vertical-align: middle;	
 }
