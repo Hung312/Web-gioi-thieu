@@ -9,14 +9,14 @@ Trang web có các tính năng cơ bản:
 
 2. CẤU TRÚC THƯ MỤC
 project_Web_gioithieu/
-├──css/
-	└──style.css
-├──js/
-	└──script.js
-├──assets/
-	├──icons
-	└──images
-├──index.html
-└──README.md
+- css/
+	+ style.css
+- js/
+	+ script.js
+- assets/
+	+ icons
+	+ images
+- index.html
+- README.md
 
 ==========================================
