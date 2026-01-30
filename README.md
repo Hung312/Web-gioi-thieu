@@ -3,7 +3,6 @@ Trang web giới thiệu cá nhân được xây dựng bằng HTML, CSS và Jav
 
 Trang web có các tính năng cơ bản:
 - Giao diện rõ ràng
-- Menu điều hướng mượt mà
 - Form liên hệ đơn giản
 - Hiển thị thông tin cá nhân
 
