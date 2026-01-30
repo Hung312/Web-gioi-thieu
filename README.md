@@ -8,15 +8,17 @@ Trang web có các tính năng cơ bản:
 - Hiển thị thông tin cá nhân
 
 2. CẤU TRÚC THƯ MỤC
+
 project_Web_gioithieu/
-├── css/
+├── css
 		├──style.css
-	js/
+	js
 		├──script.js
-├──assets/ (Thư mục phụ - nếu cần tổ chức nhiều file)
-		├──images/ (Chứa tất cả hình ảnh)
-		├── icons/ (Chứa biểu tượng)
-		└── fonts/
+├──assets
+	├──images/ (Chứa tất cả hình ảnh)
+	├── icons/ (Chứa biểu tượng)
+	└── fonts/
 ├── README.txt (File hướng dẫn - tài liệu này)
 └── index.html
+
 ==========================================
