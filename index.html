@@ -2,32 +2,44 @@
 <html lang="vi">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width:device-width; initial-scale:1.0">
 		<link href="css/style.css" rel="stylesheet">
-		<link href="js/script.js" rel="script">
-		<title>Giới thiệu cá nhân</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bitter&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat&display=swap" rel="stylesheet">
+		<title>Giới thiệu</title>
 	</head>
 	<body>
-		<article class="info">
-			<div><img src="assets/images/profile.jpg" alt="Ảnh đại diện" width="265px" height="265px" class="profile"></div>
-			<div>Nguyễn Trường Hưng
-				<br>
-				<div>09/02/2006</div>
+		<article class="heading" style="background-image:url('assets/images/background.jpg')"><h1 style="font-size:58px; text-transform:uppercase; color: white" class="montserrat"><b>Giới thiệu</b></h1></article>
+		<article style="background-color:rgb(200, 200, 200); margin:15px; display:flex;" class="bitter">
+		<div><img src="assets/images/profile.jpg" alt="Ảnh đại diện" style="width:365px; height:265px"></div>
+			<div style="vertical-align: middle; font-size:40px; padding-top: 30px; padding-left: 10px">
+				Nguyễn Trường Hưng<br>
+				09/02/2006<br>
+				Sinh viên, theo học tại Đại học Trà Vinh(TVU)<br>
+				Đam mê: lập trình, chơi thể thao/điện tử<br>
+			</div>
+			<div style="vertical-align:middle; font-size:30px; padding-top: 30px; padding-left:10px; border-left:1px solid black">
+				<h2><b>Thông tin liên lạc</b></h2>
+				<div>SĐT: 0339475251<br>
+				<a href="mailto:nguyenhungeqqw@gmail.com" target="_blank">nguyenhungeqqw@gmail.com</a>
 			</div>
 		</article>
-		<article class="info" style="background-color:hsl(0, 0%, 70%); padding: 20px">
-			<div>Quê quán: Trà Vinh(thuộc Vĩnh Long)</div>
-			<br>
-			<div>Là sinh viên Đại học Trà Vinh(TVU)</div>
-		</article>
-		<article class="info">
-			<h3>Sở thích</h3>
-			<ul type ="disc">
-				<li>Lập trình</li>
-				<li>Chơi thể thao/thể thao điện tử</li>
-			</ul>
-		</article>
+		<section class="achievements-container" style="background-color:#5882bb">
+			<article class="achievement-card bitter">
+					<h2><b>Chứng nhận tham gia hoạt động EARTHDAYS - vệ sinh đường phố</b></h2>
+					<p><b>Hoạt động được diễn ra vào ngày 20/04/2025</b><br>
+					Tôi tham gia chiến dịch EarthDay cùng các tình nguyện viên với nhiều hoạt động như trồng cây xanh, thu gom rác thải nhựa và tuyên truyền bảo vệ môi trường. Tất cả đều diễn ra trong không khí sôi nổi, đoàn kết và tràn đầy tinh thần trách nhiệm.<br>
+					<img src="assets/images/EARTHDAY.png" alt="EARTHDAY" class="image">
+					</p>
+			</article>
+			<article class="achievement-card bitter">
+					<h2><b>Tham gia hiến máu tình nguyện 2 lần</b></h2>
+					<p><b>Lần 1: 11/05/2025; Lần 2: 10/01/2026</b><br>
+					Hiến máu tình nguyện là hành động cho đi máu của mình để giúp đỡ người khác, đặc biệt là những người đang cần máu để điều trị bệnh hoặc cấp cứu. Đây là một hành động tự nguyện, không vì lợi ích cá nhân, mà xuất phát từ lòng nhân ái và trách nhiệm với cộng đồng.<br>
+					<img src="assets/images/hienmau.jpg" alt="Hiến máu" class="image">
+					</p>
+			</article>
+		</section>
 	</body>
-
-
-
 </html>
